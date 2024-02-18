@@ -1,3 +1,4 @@
+--------------------------
 ### Research Question
 ---------------------------
 #### a) What novel question(s) do you aim to answer in your project?
@@ -12,7 +13,7 @@
 - Patients and their families can benefit from this project as it can help them to understand their risk of readmission.
 - Healthcare professionals are interested in hospital readmission as it can help them identify patients at high risk of readmission and take proactive measures to prevent it.
 - Insurance companies can identify the patients who are at high risk of readmission to increase their profitability.
-
+--------------------------
 ### Data
 ---------------------------
 #### a) What is the data period you are looking at?
@@ -23,7 +24,7 @@
 
 #### c) Do you have repeated observations for a given party?
 - No, as it is a hospital admission data it is presumed with the dataset that we do not have any duplicate values and we will be adding a unique identifier column to make sure each observation is marked unique.
-
+--------------------------
 ### Model
 --------------------------
 #### a) What is the outcome of interest (Y variable)?
@@ -35,7 +36,7 @@
 
 #### c) What statistical model(s) do you plan on using?
 - Logistic Regression (Logit function)
-
+-----------------------------
 ### Results/conclusions
 ------------------------------
 #### a) What results/conclusions did you arrive at?
