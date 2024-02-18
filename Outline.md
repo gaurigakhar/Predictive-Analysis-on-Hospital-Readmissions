@@ -1,4 +1,4 @@
-### Research question
+### Research Question
 ---------------------------
 #### a) What novel question(s) do you aim to answer in your project?
 - Is diabetes a predictor of hospital readmission?
@@ -14,6 +14,7 @@
 - Insurance companies can identify the patients who are at high risk of readmission to increase their profitability.
 
 ### Data
+---------------------------
 #### a) What is the data period you are looking at?
 - 10 years of patient data
 
@@ -24,6 +25,7 @@
 - No, as it is a hospital admission data it is presumed with the dataset that we do not have any duplicate values and we will be adding a unique identifier column to make sure each observation is marked unique.
 
 ### Model
+--------------------------
 #### a) What is the outcome of interest (Y variable)?
 - Will the patient be readmitted to the Hospital or not? The Dataset contains a column: 'readmitted'.
 
@@ -35,6 +37,7 @@
 - Logistic Regression (Logit function)
 
 ### Results/conclusions
+------------------------------
 #### a) What results/conclusions did you arrive at?
 - Considering the clinical parameters, we would derive predicted probability through logistic regression and determine whether a diabetic patient has risk of being readmitted or not.
 
