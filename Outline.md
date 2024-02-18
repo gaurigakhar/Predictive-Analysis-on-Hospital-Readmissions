@@ -1,4 +1,4 @@
-1. Research question
+# 1. Research question
 a) What novel question(s) do you aim to answer in your project?
  Is diabetes a predictor of hospital readmission?
 b) Who will be your potential audience (e.g., a manager/executive in a particular function of a particular
