@@ -1,3 +1,10 @@
+# Is diabetes a predictor of hospital readmission?
+
+## Potenial Audience
+- Patient / Patient Families
+- Medical Professionals
+- Insurance Companies
+
 ## Dataset
 - Contains over 25,000 records spanning 10 years.
 - 14 columns at individual patient level.
