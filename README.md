@@ -36,6 +36,7 @@
 
 #### c) What statistical model(s) do you plan on using?
 - Logistic Regression (Logit function)
+- Decision Tree
 -----------------------------
 ### Results/conclusions
 ------------------------------
