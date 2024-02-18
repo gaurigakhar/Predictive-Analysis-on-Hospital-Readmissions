@@ -1,50 +1,64 @@
---------------------------
-### Research Question
----------------------------
-#### a) What novel question(s) do you aim to answer in your project?
-- Is diabetes a predictor of hospital readmission?
+# Is diabetes a predictor of hospital readmission?
 
-#### b) Who will be your potential audience (e.g., a manager/executive in a particular function of a particular industry, or policy makers/government agencies)?
+## Potenial Audience
 - Patient / Patient Families
 - Medical Professionals
 - Insurance Companies
-  
-#### c) Why would they be interested in your question(s)? Be specific.
-- Patients and their families can benefit from this project as it can help them to understand their risk of readmission.
-- Healthcare professionals are interested in hospital readmission as it can help them identify patients at high risk of readmission and take proactive measures to prevent it.
-- Insurance companies can identify the patients who are at high risk of readmission to increase their profitability.
---------------------------
-### Data
----------------------------
-#### a) What is the data period you are looking at?
-- 10 years of patient data
 
-#### b) What is the level of observation?
-- Individual patient level data
+## Dataset
+- Contains over 25,000 records spanning 10 years.
+- 14 columns at individual patient level.
 
-#### c) Do you have repeated observations for a given party?
-- No, as it is a hospital admission data it is presumed with the dataset that we do not have any duplicate values and we will be adding a unique identifier column to make sure each observation is marked unique.
---------------------------
-### Model
---------------------------
-#### a) What is the outcome of interest (Y variable)?
-- Will the patient be readmitted to the Hospital or not? The Dataset contains a column: 'readmitted'.
+## Data Preprocessing
+- Steps:
+  - Data cleaning
+  - Handling missing values
+  - Creating dummy variables
+- Target Variable: "Readmitted" converted into binary form (0 and 1) for modeling.
 
-#### b) What are covariates or predictors (X variables) you plan on including in your Model?
-- The following are the predictors: 
-'age', 'time_in_hospital', 'n_lab_procedures', 'n_procedures’, ‘n_medications', 'n_outpatient', 'n_inpatient', 'n_emergency', 'medical_specialty', 'diag_1', 'diag_2', 'diag_3', 'glucose_test', 'A1Ctest', 'change', 'diabetes_med'.
+## Exploratory Data Analysis
+- Correlation Matrix:
+  - Identifying highly correlated and negatively correlated variables.
 
-#### c) What statistical model(s) do you plan on using?
-- Logistic Regression (Logit function)
-- Decision Tree
------------------------------
-### Results/conclusions
-------------------------------
-#### a) What results/conclusions did you arrive at?
-- Considering the clinical parameters, we would derive predicted probability through logistic regression and determine whether a diabetic patient has risk of being readmitted or not.
+![image](https://github.com/gaurigakhar/Predictive-Analysis-on-Hospital-Readmissions/assets/44133116/ee408acd-c691-42eb-8be8-6afd8801cd45)
 
-#### b) If you have not checked any plots or conducted any statistical analyses yet, what are possible conclusions you can reach based on your analyses?
-- What clinical factors are affecting the patient to get readmitted to the Hospital?
-- We will be conducting data preprocessing, feature selection, and we will make necessary imputation in the given dataset.
-- We will be generating different plots variable/feature correlation, chi-square test for categorical variable selection, box plots for EDA.
-- We will be predicting the hospital readmission rate for diabetic patients while keeping various parameters constant and monitoring the effects.
+- Distribution Plots:
+  - Assessing impact of continuous and categorical variables on readmission.
+
+![image](https://github.com/gaurigakhar/Predictive-Analysis-on-Hospital-Readmissions/assets/44133116/bb90267b-6c74-47f6-9bff-6eaddf4a3f84)
+
+## Bivariate Analysis
+- Objective:
+  - Explore relationships between pairs of variables and their association with readmission.
+
+![image](https://github.com/gaurigakhar/Predictive-Analysis-on-Hospital-Readmissions/assets/44133116/f65b47ad-08b6-4ace-b885-1bb3797e751a)
+
+## Analytical Models
+### 1. Linear Regression
+- Method:
+  - Logistic regression analysis to estimate probability of readmission.
+- Insights:
+  - Provided estimation of readmission likelihood considering medication usage, hospital visits, demographics.
+- Accuracy:
+  - Achieved 61.34%.
+
+### 2. Decision Tree
+- Method:
+  - Revealed hierarchical relationships between predictor variables and readmission outcomes.
+- Insights:
+  - Visualized decision-making process, identified influential factors.
+- Accuracy:
+  - Achieved 60.25%.
+
+![image](https://github.com/gaurigakhar/Predictive-Analysis-on-Hospital-Readmissions/assets/44133116/f7dd98e5-87be-4fd7-88b1-970c23c99ad1)
+
+### Key Findings
+- Patients already taking diabetes medication are at higher risk.
+- Significant predictor variables: inpatient/outpatient status, diabetes medication usage, emergency visits, length of stay, age.
+- Challenges: Missing values or lack of testing data for glucose diagnosis, A1c tests, general diagnosis hinder definitive determination of readmission necessity for diabetic patients.
+
+### Implications
+- Both models provide valuable insights into readmission patterns and influential factors.
+- Highlighted variables can aid healthcare professionals in targeted intervention strategies to reduce readmission rates, particularly for diabetic patients.
+
+This summary encapsulates the main components and outcomes of your hospital readmission prediction project, providing a clear understanding of the process and insights gained.
