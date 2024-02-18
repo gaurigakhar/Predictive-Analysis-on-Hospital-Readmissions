@@ -18,6 +18,8 @@
 - Distribution Plots:
   - Assessing impact of continuous and categorical variables on readmission.
 
+![image](https://github.com/gaurigakhar/Predictive-Analysis-on-Hospital-Readmissions/assets/44133116/bb90267b-6c74-47f6-9bff-6eaddf4a3f84)
+
 ## Bivariate Analysis
 - Objective:
   - Explore relationships between pairs of variables and their association with readmission.
