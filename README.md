@@ -6,7 +6,7 @@
 
 #### b) Who will be your potential audience (e.g., a manager/executive in a particular function of a particular industry, or policy makers/government agencies)?
 - Patient / Patient Families
-- Hospitals
+- Medical Professionals
 - Insurance Companies
   
 #### c) Why would they be interested in your question(s)? Be specific.
