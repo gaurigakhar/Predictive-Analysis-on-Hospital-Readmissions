@@ -16,7 +16,7 @@
   - Creating dummy variables
 - Target Variable: "Readmitted" converted into binary form (0 and 1) for modeling.
 
-## Exploratory Analysis
+## Exploratory Data Analysis
 - Correlation Matrix:
   - Identifying highly correlated and negatively correlated variables.
 
@@ -33,7 +33,7 @@
 
 ![image](https://github.com/gaurigakhar/Predictive-Analysis-on-Hospital-Readmissions/assets/44133116/f65b47ad-08b6-4ace-b885-1bb3797e751a)
 
-## Data Modeling
+## Analytical Models
 ### 1. Linear Regression
 - Method:
   - Logistic regression analysis to estimate probability of readmission.
@@ -52,7 +52,6 @@
 
 ![image](https://github.com/gaurigakhar/Predictive-Analysis-on-Hospital-Readmissions/assets/44133116/f7dd98e5-87be-4fd7-88b1-970c23c99ad1)
 
-## Results and Conclusion
 ### Key Findings
 - Patients already taking diabetes medication are at higher risk.
 - Significant predictor variables: inpatient/outpatient status, diabetes medication usage, emergency visits, length of stay, age.
