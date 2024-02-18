@@ -1,4 +1,5 @@
 ### Research question
+---------------------------
 #### a) What novel question(s) do you aim to answer in your project?
 - Is diabetes a predictor of hospital readmission?
 
@@ -19,7 +20,7 @@
 #### b) What is the level of observation?
 - Individual patient level data
 
-#### c)Do you have repeated observations for a given party?
+#### c) Do you have repeated observations for a given party?
 - No, as it is a hospital admission data it is presumed with the dataset that we do not have any duplicate values and we will be adding a unique identifier column to make sure each observation is marked unique.
 
 ### Model
