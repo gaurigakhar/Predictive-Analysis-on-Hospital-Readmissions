@@ -24,6 +24,8 @@
 - Objective:
   - Explore relationships between pairs of variables and their association with readmission.
 
+![image](https://github.com/gaurigakhar/Predictive-Analysis-on-Hospital-Readmissions/assets/44133116/f65b47ad-08b6-4ace-b885-1bb3797e751a)
+
 ## Data Modeling
 ### 1. Linear Regression
 - Method:
@@ -40,6 +42,8 @@
   - Visualized decision-making process, identified influential factors.
 - Accuracy:
   - Achieved 60.25%.
+
+![image](https://github.com/gaurigakhar/Predictive-Analysis-on-Hospital-Readmissions/assets/44133116/f7dd98e5-87be-4fd7-88b1-970c23c99ad1)
 
 ## Results and Conclusion
 ### Key Findings
