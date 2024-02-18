@@ -1,26 +1,52 @@
-### Correlation Matrix
+## Dataset
+- Contains over 25,000 records spanning 10 years.
+- 14 columns at individual patient level.
 
-![Corr](https://github.com/gaurigakhar/Predictive-Analysis-on-Hospital-Readmissions/assets/44133116/da4eba89-783a-403f-bda2-dbb3de97815b)
+## Data Preprocessing
+- Steps:
+  - Data cleaning
+  - Handling missing values
+  - Creating dummy variables
+- Target Variable: "Readmitted" converted into binary form (0 and 1) for modeling.
 
-### Distribution of Continuous Variables
+## Exploratory Analysis
+- Correlation Matrix:
+  - Identifying highly correlated and negatively correlated variables.
 
-### Distribution of Categorical Variables
+![image](https://github.com/gaurigakhar/Predictive-Analysis-on-Hospital-Readmissions/assets/44133116/ee408acd-c691-42eb-8be8-6afd8801cd45)
 
-### Bivariate Analysis
+- Distribution Plots:
+  - Assessing impact of continuous and categorical variables on readmission.
 
-### Analytical Models
-- Logistic Regression
+## Bivariate Analysis
+- Objective:
+  - Explore relationships between pairs of variables and their association with readmission.
 
-- Decision Tree
+## Data Modeling
+### 1. Linear Regression
+- Method:
+  - Logistic regression analysis to estimate probability of readmission.
+- Insights:
+  - Provided estimation of readmission likelihood considering medication usage, hospital visits, demographics.
+- Accuracy:
+  - Achieved 61.34%.
 
-### Confusion Matrix
+### 2. Decision Tree
+- Method:
+  - Revealed hierarchical relationships between predictor variables and readmission outcomes.
+- Insights:
+  - Visualized decision-making process, identified influential factors.
+- Accuracy:
+  - Achieved 60.25%.
 
+## Results and Conclusion
+### Key Findings
+- Patients already taking diabetes medication are at higher risk.
+- Significant predictor variables: inpatient/outpatient status, diabetes medication usage, emergency visits, length of stay, age.
+- Challenges: Missing values or lack of testing data for glucose diagnosis, A1c tests, general diagnosis hinder definitive determination of readmission necessity for diabetic patients.
 
+### Implications
+- Both models provide valuable insights into readmission patterns and influential factors.
+- Highlighted variables can aid healthcare professionals in targeted intervention strategies to reduce readmission rates, particularly for diabetic patients.
 
-### Conclusion
-- Most patients do not undergo Glucose or A1C Test and do not get diagnosed with Diabetes. Hence, It gets difficult to determine whether diabetic patients are at higher risk of readmission or not.
-- Conversely, data says that people already taking diabetes medication have been readmitted.
-- Most significant predictor variables: n_inpatient, n_outpatient, diabetes_med, n_emergency, time_in_hospital, age
-- Hospitals should follow up on the diagnosis and glucose test reports for patients already under diabetes medication to further analyze whether the patients are at higher risk of readmission.
-
-#### Diabetes cannot indicate higher readmission rates.
+This summary encapsulates the main components and outcomes of your hospital readmission prediction project, providing a clear understanding of the process and insights gained.
